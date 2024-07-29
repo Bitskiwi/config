@@ -15,8 +15,6 @@ set cursorline
 
 call plug#begin()
 
-
-
 if has('nvim')
 	function! UpdateRemotePlugins(...)
 	" Needed to refresh runtime files
@@ -38,7 +36,7 @@ Plug 'tpope/vim-surround'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tc50cal/vim-terminal'
 Plug 'rafi/awesome-vim-colorschemes'
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'npm ci'}
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -59,7 +57,7 @@ call wilder#set_option('renderer', wilder#popupmenu_renderer({
 	\ ],
 	\ }))
 
-:colorscheme jellybeans
+:colorscheme gruvbox
 
 function! ToggleMouse()
 	if &mouse == 'a'

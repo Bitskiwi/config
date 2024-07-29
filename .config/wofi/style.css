@@ -1,0 +1,37 @@
+
+#outer-box {
+	border-radius: 10px;
+	background-color: rgba(40,40,40,0.75);
+	border: 1px solid rgba(200,200,200,0.75);
+	color: rgb(200,200,200);
+}
+
+#inner-box {
+	border-radius: 10px;
+	background-color: rgba(40,40,40,0.5);
+	color: rgb(200,200,200);
+}
+
+#window {
+	border-radius: 10px;
+	background-color: rgba(40,40,40,0.5);
+	color: rgb(200,200,200);
+}
+
+#input {
+	border-radius: 10px;
+	background-color: rgba(40,40,40,0.5);
+	color: rgb(200,200,200);
+}
+
+#scroll {
+	border-radius: 10px;
+	background-color: rgba(40,40,40,0.5);
+	color: rgb(200,200,200);
+}
+
+#entry:selected {
+	background-color: rgba(50,50,50,0.5);
+	color: rgb(200,200,200);
+}
+

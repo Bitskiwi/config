@@ -13,4 +13,4 @@ set list
 set listchars=tab:\|-,trail:-
 set cursorline
 set wildmenu
-colorscheme retrobox 
+colorscheme habamax
